@@ -1,0 +1,147 @@
+/*******************************
+	All Responsive Code
+*******************************/
+
+/* Medium Layout: 1280px. */
+@media only screen and (min-width: 992px) and (max-width: 1200px) {	
+
+
+}
+
+/* Tablet Layout: 768px. */
+@media only screen and (min-width: 768px) and (max-width: 991px) { 
+/*Menu responsive*/
+.main-menu button.navbar-toggler{background:#000;transition:.4s;}
+.main-menu button.navbar-toggler:hover{background:#27ea16;}
+nav.navbar.navbar-expand-lg.main-menu {
+    padding:0;
+}
+.main-menu ul.navbar-nav {
+    background: rgba(0,0,0,0.55);
+    width: 100%;
+	}
+.main-menu ul.navbar-nav li {
+}
+.main-menu ul.navbar-nav li a{
+	padding:12px;
+}
+.header-content h1 {
+    font-size: 45px;
+}
+.header-content p {
+font-size: 13px;
+}
+.counter-box p.counter-pera {
+    font-size: 24px;
+}
+.about-right h3 {
+    font-size: 27px;
+    line-height: 30px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+.about-right p {
+    margin-top: 6px;
+    line-height: 19px;
+}
+.about-right a {
+    margin-top: 12px;
+}
+	
+}
+
+/* Mobile Layout: 320px. */
+@media only screen and (max-width: 767px) { 
+.main-menu button.navbar-toggler{background:#000;transition:.4s;}
+.main-menu button.navbar-toggler:hover{background:#27ea16;}
+nav.navbar.navbar-expand-lg.main-menu {
+    padding:0;
+}
+.main-menu ul.navbar-nav {
+    background: rgba(0,0,0,0.55);
+    width: 50%;
+	}
+.main-menu ul.navbar-nav li a{
+	padding:12px;
+}
+.main-menu ul.navbar-nav li {
+    text-align: center;
+    background: #37673b;
+    margin-left: 0;
+}
+.header-content h1 {
+font-size: 18px;
+}
+.header-content p {
+    font-size: 12px;
+    margin-top: 5px;
+    margin-bottom: 14px;
+}
+.header-content a {
+    padding: 2px 9px;
+    font-size: 12px;
+}
+.header-content {
+    margin-top: 75px;
+}
+.header-img-1 {
+    height: 263px;
+}
+.about-right {
+    margin-top: 43px;
+}
+
+.video-area .text h2 {
+font-size: 19px;
+}
+.skill-left-conten p:last-child {
+    margin-top: 16px;
+}
+.skill-left-conten p {
+    margin-top: 13px;
+    line-height: 19px;
+}
+.skills-right p {
+    margin-top: 10px;
+    line-height: 19px;
+}
+.naiding-skils-bar p.skillbar-bar {
+    top: -4px;
+}
+.naiding-skils-bar h4.skill-bar-title {
+font-size: 16px;
+}
+.naiding-skils-bar .skillbar {
+    margin-bottom: 2px !important;
+}
+.textimonial-area p {
+    FONT-SIZE: 12px;
+}
+.blog-details p {
+    font-size: 13px;
+    line-height: 19px;
+}
+.btn-box-area {
+    margin-bottom: 11px;
+    margin-top: 10px;
+}
+.counter-box {
+    margin-top: 20px;
+}
+.skills-right {
+    margin-top: 10px;
+}
+
+}
+
+/* Wide Mobile Layout: 480px. */
+@media (max-width: 576px) {
+
+.footer-social-icon {
+    text-align: center;
+    display: block;
+}
+.float-right {
+    text-align: center;
+    display: contents;
+}
